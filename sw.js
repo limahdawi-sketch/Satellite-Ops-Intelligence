@@ -1,5 +1,5 @@
 /* Versioned app-shell cache. Relative URLs support root hosting and subpath hosting. */
-const CACHE_NAME = 'satops-shell-v1.4.0';
+const CACHE_NAME = 'satops-shell-v1.4.0-formula-fix-1';
 const SCOPE_URL = self.registration.scope;
 const APP_ASSETS = [
   './', './index.html', './styles.css', './core.js', './app.js',
