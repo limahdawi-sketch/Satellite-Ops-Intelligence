@@ -1,0 +1,38 @@
+{
+  "id": "./",
+  "name": "Satellite Ops Intelligence — Laith Mahdawi",
+  "short_name": "SatOps",
+  "description": "A transparent satellite engineering learning and decision-support lab for RF link budget, transponder capacity and service resilience scenarios.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f9fd",
+  "theme_color": "#0a1b33",
+  "categories": [
+    "education",
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

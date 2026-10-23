@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Satellite Ops Intelligence icon">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#102a43"/><stop offset="1" stop-color="#07111f"/></linearGradient><linearGradient id="planet" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7ce8ed"/><stop offset=".55" stop-color="#2478a2"/><stop offset="1" stop-color="#162d5a"/></linearGradient></defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="116" fill="url(#planet)" stroke="#5bd7e7" stroke-width="6"/>
+  <path d="M140 236c63 22 136 22 232 0M151 291c58-18 140-18 209 0M254 142c-37 43-58 83-58 114s21 80 58 114M283 144c30 42 47 81 47 112s-17 78-47 112" fill="none" stroke="#a6f3f5" stroke-opacity=".6" stroke-width="5"/>
+  <ellipse cx="256" cy="256" rx="222" ry="92" transform="rotate(-31 256 256)" fill="none" stroke="#8b9cff" stroke-width="7" stroke-opacity=".8"/>
+  <g transform="translate(340 112) rotate(32)"><rect x="-19" y="-19" width="38" height="38" rx="5" fill="#f0c27b" stroke="#fff0cb" stroke-width="4"/><rect x="-67" y="-13" width="35" height="26" rx="2" fill="#1c7191" stroke="#5bd7e7" stroke-width="3"/><rect x="32" y="-13" width="35" height="26" rx="2" fill="#1c7191" stroke="#5bd7e7" stroke-width="3"/><path d="M-31 0h12M19 0h13M0 19v23l-18 14M0 42l18 14" fill="none" stroke="#f0c27b" stroke-width="4" stroke-linecap="round"/></g>
+  <circle cx="70" cy="366" r="10" fill="#5bd7e7"/><circle cx="438" cy="324" r="7" fill="#5bd7e7"/><circle cx="163" cy="74" r="5" fill="#a99bff"/>
+</svg>
