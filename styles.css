@@ -319,3 +319,54 @@ body{font-size:16px;line-height:1.7;letter-spacing:0}
   .learning-step{padding:15px}.learning-step h3{font-size:16px}.learning-step>p,.learning-final-note p{font-size:13px}.learning-equations code{font-size:12px}.learning-equations p{font-size:12.5px}.learning-kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.learning-kpi-grid strong{font-size:14px}.learning-table{font-size:12px}.learning-action-row .button{flex:1}
   .app-footer{font-size:10px}.roadmap-card p,.roadmap-card li,.roadmap-detail-card li{font-size:13px;line-height:1.85}
 }
+
+
+/* v1.4.0 formula readability patch: scoped to Link Formula Guide and Rain Fade guide */
+#page-link .formula-guide:not(.combined-formula-guide) .formula-note .formula,
+#page-availability .rain-formula-guide .formula-note .formula {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 9px 0 10px;
+  padding: 9px 11px;
+  border: 1px solid var(--stroke-soft);
+  border-left: 3px solid var(--cyan);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--cyan);
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.6;
+  letter-spacing: 0;
+  direction: ltr;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  font-variant-numeric: tabular-nums;
+}
+#page-link .formula-guide:not(.combined-formula-guide) .formula-note .formula sub,
+#page-availability .rain-formula-guide .formula-note .formula sub {
+  font-size: .75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  bottom: -.2em;
+}
+#page-link .formula-guide:not(.combined-formula-guide) .formula-note .formula sup,
+#page-availability .rain-formula-guide .formula-note .formula sup {
+  font-size: .75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -.45em;
+}
+@media (max-width: 600px) {
+  #page-link .formula-guide:not(.combined-formula-guide) .formula-note .formula,
+  #page-availability .rain-formula-guide .formula-note .formula {
+    font-size: 11.5px;
+    line-height: 1.65;
+    padding: 8px 9px;
+  }
+}
